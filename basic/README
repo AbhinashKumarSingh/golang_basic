@@ -1,0 +1,20 @@
+# Simple User Management Application in Go
+
+This is a command-line program written in Go that demonstrates various concepts including language basics, concurrency, error handling, packages and modules, testing, interfaces and polymorphism, web development, database access, and performance optimization.
+
+## Features
+
+- Defines a simple struct representing a user with fields for ID, name, and email.
+- Implements CRUD operations (Create, Read, Update, Delete) on users using an in-memory data store.
+- Uses goroutines to perform concurrent CRUD operations on users.
+- Implements error handling for various scenarios, such as invalid input or data not found.
+- Uses packages to organize the code into separate modules, such as one package for user management and another for database access.
+- Includes unit tests for functions using the testing package to ensure good test coverage.
+- Defines an interface for the user management module and uses it to enable polymorphic behavior.
+- Implements a simple web server using the Echo framework to expose CRUD operations as RESTful endpoints.
+- Integrates a simple SQLite database using the database/sql package for persistent storage.
+- Utilizes pprof package for performance optimization by exposing profiling endpoints.
+
+## Getting Started
+
+1. run command  go run main.go
